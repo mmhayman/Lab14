@@ -14,6 +14,10 @@ public class TestSingleton {
 
         System.out.println(test.getConnectionLimit() );
 
+        ProgramConfiguration test2 = ProgramConfiguration.getInstance();
+
+        System.out.println(test2.getConnectionLimit() );
+
 
     }
 }
